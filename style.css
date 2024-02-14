@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 45px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.content .text {
+    width: 40%;
+    color: aliceblue;
+}
+
+.content .text h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.content .text p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.content .text a {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 15px 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content .image {
+    width: 30%;
+}
+
+.content .image img {
+    width: 180px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons img {
+    width: 45px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: scale(1.5);
+}
